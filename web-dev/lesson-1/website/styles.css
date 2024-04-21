@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(90deg,green 30%,white 30%, white 70%, red 70% ,red);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.content{
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+}
+
+.photo{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,.4);
+    transition: .2s;
+}
+
+.photo:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+
+.mimolette{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+}
+
+.programming{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.enlarge{
+    transition: .2s;
+}
+.enlarge:hover{
+    font-size: 1.5rem;
+    background-color: green;
+    color: white;
+}
